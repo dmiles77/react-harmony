@@ -51,6 +51,7 @@ class DeviceGallery extends React.Component<Props, State> {
 
 		return 0;
 	}
+	
 	componentDidMount() {
 		const { getDeviceList, deviceList } = this.props;
 
